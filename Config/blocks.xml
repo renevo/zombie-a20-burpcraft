@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <burpcraft>
+
     <!-- reduce power on these - people use switches instead of relays and stick switches needing power.... -->
     <set xpath="/blocks/block[@name='electricwirerelay']/property[@name='RequiredPower']/@value">0</set>
     <set xpath="/blocks/block[@name='tripwirepost']/property[@name='RequiredPower']/@value">0</set>
+
+    <!-- pickup plants with hands -->
+	<append xpath="/blocks/block[contains(@name, '3Harvest') and not(contains(@name, 'Player'))]">
+		<property name="Class" value="CropsGrown"/>
+	</append>
+
+    <!-- pickup mushrooms with hands -->
+	<append xpath="/blocks/block[@name='mushroom01']">
+	    <property name="Class" value="CropsGrown"/>
+	</append>
+
+
 </burpcraft>

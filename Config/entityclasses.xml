@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<burpcraft>
+
+    <!-- loot bags hang out longer -->
+    <set xpath="/entity_classes/entity_class[starts-with(@name,'EntityLootContainer')]/property[@name='TimeStayAfterDeath']/@value">2400</set>
+
+</burpcraft>
