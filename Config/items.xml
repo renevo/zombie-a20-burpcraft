@@ -7,14 +7,13 @@
     <set xpath="/items/item[@name='resourceConcreteMix']/property[@name='Stacknumber']/@value">6000</set>
 
     <!-- faster hammer and nail gun -->
-	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Delay' and @value='.5']/@value">0.20</set>
-	<set xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@class='Action1']/property[@name='Delay' and @value='.64']/@value">0.35</set>
+    <set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Delay' and @value='.5']/@value">0.20</set>
+    <set xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@class='Action1']/property[@name='Delay' and @value='.64']/@value">0.35</set>
 
     <!-- Auger Tweaks (more damage, more spread on tiers, and longer reach) -->
     <set xpath="/items/item[@name='meleeToolPickT3Auger']/effect_group[@name='meleeToolPickT3Auger']/passive_effect[@name='BlockDamage' and @operation='base_set']/@value">50</set><!-- 20.7 default -->
     <set xpath="/items/item[@name='meleeToolPickT3Auger']/effect_group[@name='meleeToolPickT3Auger']/passive_effect[@name='BlockDamage' and @tier='2,6']/@value">.1,.75</set><!-- .1,.5 default -->
     <set xpath="/items/item[@name='meleeToolPickT3Auger']/effect_group[@name='meleeToolPickT3Auger']/passive_effect[@name='MaxRange' and @operation='base_set']/@value">3.85</set><!-- 2.35 default -->
-    
 
     <!-- SJ: A ratchet means you don't have to reposition the wrench between hits - should have a faster 'fire' rate -->
     <set xpath="items/item[@name='meleeToolSalvageT2Ratchet']/effect_group[@name='meleeToolSalvageT2Ratchet']/passive_effect[@name='AttacksPerMinute']/@value">70</set>
