@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<burpcraft>
+
+    <!-- More Passive Animal Spawns -->
+    <set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='WildGameForest']/@maxcount">3</set>
+    <set xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='WildGameForest']/@maxcount">3</set>
+    <set xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='WildGameForest']/@maxcount">3</set>
+    <set xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='WildGameForest']/@maxcount">3</set>
+
+</burpcraft>

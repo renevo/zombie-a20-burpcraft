@@ -1,4 +1,7 @@
 <burpcraft>
+        <!-- Visible Zombie Health Bars -->
+        <setattribute xpath="//window[@name='windowTargetBar']" name="visibility">always</setattribute>
+
         <!-- CHATBOX IMPROVEMENT -->
         <!-- Removal of Original Chatbox -->
         <remove xpath="/windows/window[@name='chatoutput']"/>

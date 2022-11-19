@@ -22,4 +22,19 @@
     <set xpath="items/item[@name='meleeToolSalvageT3ImpactDriver']/effect_group[@name='meleeToolSalvageT3ImpactDriver']/passive_effect[@name='AttacksPerMinute']/@value">80</set>
     <set xpath="items/item[@name='meleeToolSalvageT3ImpactDriver']/effect_group[@name='meleeToolSalvageT3ImpactDriver']/passive_effect[@name='StaminaLoss']/@value">10.5</set>
 
+    <!-- Water from more things -->
+	<insertAfter xpath="/items/item[@name='drinkJarEmpty']/property[@class='Action1']/property[@name='Focused_blockname_5']">
+		<property name="Focused_blockname_6" value="faucet02"/>
+		<property name="Focused_blockname_7" value="faucet04"/>
+		<property name="Focused_blockname_8" value="faucetBrass02"/>
+		<property name="Focused_blockname_9" value="faucetBrass04"/>
+		<property name="Focused_blockname_10" value="cntCabinetOldSink"/>
+		<property name="Focused_blockname_11" value="cntGraniteSink"/>
+		<property name="Focused_blockname_12" value="fireHydrant"/>
+		<property name="Focused_blockname_13" value="fireHydrantYellow"/>
+		<property name="Focused_blockname_14" value="cntToilet01"/>
+		<property name="Focused_blockname_15" value="cntToilet02"/>
+		<property name="Focused_blockname_16" value="cntToilet03"/>
+		<property name="Focused_blockname_17" value="urinalCommercialMounted"/>
+	</insertAfter>
 </burpcraft>
