@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <burpcraft>
 
-    <!-- More eggs in nests -->
-	<setattribute xpath="/lootcontainers/lootgroup[@name='groupBirdNest']/item[@name='foodEgg']" name="count">1,3</setattribute>
-	<set xpath="/lootcontainers/lootgroup[@name='groupBirdNest']/item[@name='foodEgg']/@prob">0.5</set>
-
+    <!-- More likely to get eggs in nests -->
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']/item[@name='foodEgg']" name="loot_prob_template">med</setattribute>
 </burpcraft>
