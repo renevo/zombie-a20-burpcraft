@@ -8,6 +8,7 @@
 	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[contains(@name, 'LootDropProb')]/@value">.15</set>
 
     <!-- removes normal zombie rage mode -->
+	<!-- Think this is messing with the zombie speed modifiers
 	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
 	<set xpath="/entity_classes/entity_class[@name='zombieFemaleFat']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
 	<set xpath="/entity_classes/entity_class[@name='zombieJoe']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
@@ -26,5 +27,5 @@
 	<set xpath="/entity_classes/entity_class[@name='zombieBiker']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
 	<set xpath="/entity_classes/entity_class[@name='zombieTomClark']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
 	<set xpath="/entity_classes/entity_class[@name='zombiePartyGirl']/property[@name='MoveSpeedAggro']/@value">0.1, 0.09</set>
-
+	-->
 </burpcraft>
